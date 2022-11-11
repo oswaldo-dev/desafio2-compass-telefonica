@@ -1,8 +1,14 @@
 package br.com.tlf.dip.productinventory.productmanagement.domain.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class RequestProductDto {
     
     private String name;
