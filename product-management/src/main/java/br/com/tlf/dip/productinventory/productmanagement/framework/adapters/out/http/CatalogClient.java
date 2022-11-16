@@ -1,4 +1,4 @@
-package br.com.tlf.dip.productinventory.productmanagement.framework.adapters.out.HTTP;
+package br.com.tlf.dip.productinventory.productmanagement.framework.adapters.out.http;
 
 import br.com.tlf.dip.productinventory.productmanagement.domain.dto.RequestProductDto;
 import br.com.tlf.dip.productinventory.productmanagement.domain.dto.ResponseProductDto;

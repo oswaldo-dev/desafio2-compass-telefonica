@@ -3,9 +3,8 @@ package br.com.tlf.dip.productinventory.productmanagement.framework.adapters.out
 import br.com.tlf.dip.productinventory.productmanagement.application.ports.out.ProductRepository;
 import br.com.tlf.dip.productinventory.productmanagement.domain.dto.RequestProductDto;
 import br.com.tlf.dip.productinventory.productmanagement.domain.dto.ResponseProductDto;
-import br.com.tlf.dip.productinventory.productmanagement.framework.adapters.out.HTTP.CatalogClient;
+import br.com.tlf.dip.productinventory.productmanagement.framework.adapters.out.http.CatalogClient;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

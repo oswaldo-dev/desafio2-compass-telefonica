@@ -1,17 +1,18 @@
 package br.com.tlf.dip.productinventory.productmanagement.domain.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+
+@Getter
 @AllArgsConstructor
-@NoArgsConstructor
-@Builder
 public class RequestProductDto {
-    
-    private String name;
-    private String description;
-    private Double price;
+
+    @NotBlank
+    private final String name;
+    @NotBlank
+    private final String description;
+    @NotNull
+    private final Double price;
 }

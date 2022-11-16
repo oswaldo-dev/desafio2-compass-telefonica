@@ -1,17 +1,12 @@
 package br.com.tlf.dip.productinventory.productmanagement.domain.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data
+@Getter
 @AllArgsConstructor
-@NoArgsConstructor
-@Builder
 public class ResponseProductDto {
-    private String id;
-    private String name;
-    private String description;
-    private Double price;
+    private final String id;
+    private final String name;
+    private final String description;
+    private final Double price;
 }
